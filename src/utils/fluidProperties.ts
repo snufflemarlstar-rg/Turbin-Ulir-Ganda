@@ -402,22 +402,20 @@ export const FLUID_DATABASE: Record<string, FluidData> = {
   "R141b": {
     name: "R141b (1,1-Dichloro-1-fluoroethane)",
     formula: "CH3CCl2F",
-    M: 0.11695,            // kg/mol (116.95 g/mol)
-    Tc: 477.50,            // K (204.35°C)
-    Pc: 4.212e6,           // Pa (42.12 bar)
-    omega: 0.2195,         // acentric factor
-    Tb: 305.20,            // K (32.05°C @ 1 atm)
+    M: 0.11695,           
+    Tc: 477.50,            
+    Pc: 4.212e6,           
+    omega: 0.2195,         
+    Tb: 305.20,            
     cp_coeffs: [16.51, 0.3448, -2.225e-4, 5.919e-8],
-    // Cp = 16.51 + 0.3448T - 2.225e-4·T² + 5.919e-8·T³ [J/(mol·K)]
-    gamma: 1.11,           // Cp/Cv (gas ideal)
-    rho_liq_ref: 1227,     // kg/m³ (densitas cair @ 25°C)
-    h_vap_ref: 25800,      // J/mol (≈221 kJ/kg @ Tb)
-    s_ref: 320,            // J/(mol·K) (entropi molar referensi)
-    T_min: 240,            // K (−33°C)
-    T_max: 470,            // K (197°C, mendekati Tc)
-    P_min: 0.05e5,         // Pa (0.05 bar)
-    P_max: 40e5            // Pa (40 bar)
-    // Tipe: DRY | ODP: 0.11 | GWP: 725 | Flamabilitas: Tidak (A1)
+    gamma: 1.11,           
+    rho_liq_ref: 1227,     
+    h_vap_ref: 222000,      
+    s_ref: 320,            
+    T_min: 240,            
+    T_max: 470,          
+    P_min: 0.05e5,         
+    P_max: 40e5            
 }
 };
 
